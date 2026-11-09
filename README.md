@@ -46,7 +46,7 @@
 - **Android / Android TV:** APK dosyasını indir ve aç. Telefon "bilinmeyen kaynak" izni isterse bu kurulum için izin ver.
 
 ### Gizlilik
-Sunucu bilgilerin (adres, kullanıcı adı, şifre) yalnız bu cihazda, işletim sisteminin güvenli kasasında saklanır; erkemoz'a hiçbir şey gönderilmez. Program yalnız senin eklediğin sunucuya ve yeni sürümü denetlemek için GitHub'a bağlanır. Kullanım sayacı yoktur. Ayrıntılar: [Gizlilik Politikası](https://erkemoz.app/privacy/)
+Sunucu bilgilerin (adres, kullanıcı adı, şifre) yalnız bu cihazda, işletim sisteminin güvenli kasasında saklanır; erkemoz'a hiçbir şey gönderilmez. Program senin eklediğin sunucuya ve yeni sürümü denetlemek için GitHub'a bağlanır. Ayrıca, Ayarlar → Gizlilik'teki **"Anonim kullanım istatistiği gönder"** anahtarı açıkken yalnızca **rastgele bir kurulum numarası, sürüm ve arayüz dili** gönderilir (açılışta, kapanışta ve program açık kaldıkça 15 dakikada bir); sunucu bilgilerin, şifren ve izlediklerin asla gönderilmez, sunucu IP adresini kaydetmez. Anahtarı kapatırsan hiçbir şey gönderilmez. Ayrıntılar: [Gizlilik Politikası](https://erkemoz.app/privacy/)
 
 ### Güvenlik
 - **Yalnızca bu sayfadaki resmi sürümü indir.** Her dosyanın SHA-256 parmak izi [sürüm notunda](https://github.com/erkemoz-wq/erkemoz-iptv-player/releases/latest) yazar; program kendini güncellerken indirdiği dosyayı bu parmak iziyle doğrular, tutmazsa kurmaz.
@@ -73,7 +73,7 @@ erkemoz@proton.me · [erkemoz.app](https://erkemoz.app)
 - **Android / Android TV:** download the APK and open it. If your device asks for the "unknown sources" permission, allow it for this installation.
 
 ### Privacy
-Your server details (address, username, password) are stored only on this device, in the operating system's secure storage; nothing is sent to erkemoz. The app connects only to the server you add and to GitHub to check for new versions. There is no usage counter. Details: [Privacy Policy](https://erkemoz.app/privacy/)
+Your server details (address, username, password) are stored only on this device, in the operating system's secure storage; nothing is sent to erkemoz. The app connects to the server you add and to GitHub to check for new versions. In addition, while **"Send anonymous usage statistics"** is on in Settings → Privacy, only **a random installation number, the app version and the interface language** are sent (at startup, on exit and every 15 minutes while the app is open); your server details, password and what you watch are never sent, and the server doesn't store IP addresses. Turn it off and nothing is sent. Details: [Privacy Policy](https://erkemoz.app/privacy/)
 
 ### Security
 - **Only download the official release from this page.** Each file's SHA-256 fingerprint is listed in the [release notes](https://github.com/erkemoz-wq/erkemoz-iptv-player/releases/latest); when the app updates itself it checks the downloaded file against this fingerprint and won't install it if it doesn't match.
